@@ -8,4 +8,4 @@ ENV HOST=0.0.0.0 \
 EXPOSE 8069
 
 # Start Odoo service
-CMD ["odoo"]
+CMD ["odoo", "--http-port=8069"]
